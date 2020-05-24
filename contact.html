@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Contact us here at Space X HUB. Send us a message">
+        <meta name="keywords" content="SpaceX, contact, contactform, personal information">
+        <meta name="author" content="Philip Kvam">
+    <title>Contact Us</title>
+    <script
+      src="https://kit.fontawesome.com/a6641d28d2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ztu0hwv.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-bar">
+          <div class="nav-logo">
+          <span class="logo-firstline">SPACE X</span> <span class="logo-secondline">HUB</span> 
+          <div class="search-container">
+            <input type="text" class="searchbar" placeholder="Search..">
+            <button type="submit" ><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+        
+        </div>
+  
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line" id="offset-line"></div>
+          <div class="btn-line"></div>
+        </div>
+  
+        <nav class="menu">
+          
+          <div class="next-launch-container">
+            <div class="next-launch">
+              
+            </div>
+          </div>
+          <ul class="menu-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" >
+                HOME
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="making-history.html" class="nav-link">
+                HISTORY
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="rockets.html" class="nav-link">
+                ROCKETS
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link" id="current">
+                CONTACT
+              </a>
+            </li>
+  
+            
+           
+            <div class="icons">
+              <a href="https://www.youtube.com/spacex" target="_blank">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a>
+              <a href="https://www.instagram.com/spacex/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="https://twitter.com/spacex"target="_blank">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <a href="https://www.flickr.com/photos/spacex"target="_blank">
+                <i class="fab fa-flickr fa-2x"></i>
+              </a>
+            </div>
+          </ul>
+         
+        </nav>
+    </header>
+    <section id="section-g" class="grid">
+      <div class="btn-container">
+      <button class="btn" id="secondary-btn">
+        <a href="https://www.spacex.com/" target="_blank">OFFICIAL SPACE X</a>
+      </button>
+    </div>
+
+      <h1>CONTACT</h1>
+     
+      <div class="form-group">
+        <form id="contact-form" method="POST" action="index.html">
+          <div class="row">
+            <div class="label-row">
+              <label for="first-name">First Name:</label>
+            </div>
+            <div class="input-row">
+              <div id="first-name-error">Please Enter Your First Name</div>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Philip"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="label-row">
+            <label for="last-name">Last Name:</label>
+          </div>
+          <div class="input-row">
+            <div id="last-name-error">Please Enter Your Last Name</div>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Kvam"
+            />
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="label-row">
+            <label for="email">E-Mail:</label>
+          </div>
+          <div class="input-row">
+            <div id="email-error">Please Enter A Valid E-Mail</div>
+            <input
+              type="text"
+              id="email"
+              name="e-mail"
+              placeholder="ph_kvam@hotmail.com"
+            />
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="label-row">
+            <label for="message">Message:</label>
+          </div>
+          <div class="input-row">
+            <div id="message-error">Please Enter A Message</div>
+            <textarea id="message" placeholder="Write something"></textarea>
+            <div class="btn-container"> 
+            <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+    </section>
+    <script src="js/formvalidate.js"></script>
+    <script src="js/hamburgerMenu.js"></script>
+    <script src="js/nextlaunch.js"></script>
+  </body>
+</html>
